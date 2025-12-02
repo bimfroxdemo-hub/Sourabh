@@ -8,6 +8,7 @@ import WhyChooseUs from "../Home/WhyChooseUs";
 import CTASection from "../Home/CTASection";
 import Exprience from "./Exprience"; // (Your file name is Exprience, so kept the same)
 import Industries from "./Industries";
+import ServicePartners from "../componant/ServicePartners";
 
 const Index = () => {
   return (
@@ -31,8 +32,11 @@ const Index = () => {
         <section className="w-full">
           <Categery />
         </section>
+
+        <section className="w-full">
+          <ServicePartners />
+        </section>
       
-       
         <section className="w-full">
           <Industries />
         </section>

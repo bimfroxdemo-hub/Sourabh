@@ -161,7 +161,7 @@
                     {/* Email */}
                     <a
                       href={`mailto:${emailAddress}`}
-                      className="flex items-center gap-4 hover:text-purple-600 transition"
+                      className="flex items-center gap-4 hover:text-red-600 transition"
                     >
                       <FiMail className="text-xl md:text-2xl" />
                       <span className="text-base md:text-lg">Email</span>
